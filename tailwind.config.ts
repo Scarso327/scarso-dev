@@ -20,6 +20,7 @@ const config: Config = {
     },
     screens: {
       'normal': '1028px',
+      'desktop': '1280px',
     },
   },
   plugins: [],
