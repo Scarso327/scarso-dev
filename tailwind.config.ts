@@ -18,6 +18,9 @@ const config: Config = {
         blink: 'blink 1.2s infinite',
       }
     },
+    screens: {
+      'normal': '1028px',
+    },
   },
   plugins: [],
 }
