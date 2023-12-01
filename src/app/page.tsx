@@ -12,8 +12,8 @@ export default function Home() {
   return (
     <main className="container mx-auto min-h-screen grid grid-rows-1 grid-cols-2 grid-flow-row row-span-2 grid-flow-row">
       <div className="flex flex-col justify-center p-12">
-        <h3 className="text-slate-200">Hello, I'm Jack</h3>
-        <h1 className="text-3xl font-bold">I'M A DEVELOPER<span className="animate-blink">_</span></h1>
+        <h3 className="text-slate-200">Hello, I&apos;m Jack</h3>
+        <h1 className="text-3xl font-bold">I&apos;M A DEVELOPER<span className="animate-blink">_</span></h1>
         <ul className="flex flex-row">
           <li className="p-1 text-slate-300 hover:text-slate-100"><a href={TWITTER_URL} target="_blank"><FontAwesomeIcon icon={faTwitter} /></a></li>
           <li className="p-1 text-slate-300 hover:text-slate-100"><a href={GITHUB_URL} target="_blank"><FontAwesomeIcon icon={faGithub} /></a></li>
