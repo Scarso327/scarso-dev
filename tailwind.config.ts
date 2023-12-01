@@ -8,11 +8,15 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+      keyframes: {
+        blink: {
+          '0%, 49%, 100%': { color: '#f6f6f6', textShadow: '0px 2px 1px rgba(0,0,0,0.6)' },
+          '60%, 99%': { color: 'transparent', textShadow: 'none' },
+        }
       },
+      animation: {
+        blink: 'blink 1.2s infinite',
+      }
     },
   },
   plugins: [],
